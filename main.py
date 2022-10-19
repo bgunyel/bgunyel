@@ -6,10 +6,8 @@ from rich.tree import Tree
 
 console = Console(record=True, width=100)
 
-about = """ 
-I'm a freelance Data Scientist / Machine Learning Engineer with 2x M.Sc. degrees. I worked primarily on 
-Computer Vision problems in the past. Now I'm more interested in Natural Language Processing applications 
-(and a bit of time-series problems). 
+about = """I'm a freelance Data Scientist / Machine Learning Engineer with 2x M.Sc. degrees. I worked primarily on 
+Computer Vision problems in the past. Currently, I'm more interested in Natural Language Processing and Time-Series applications. 
 
 You can find me on [bold link=https://twitter.com/bertan_gunyel]Twitter[/] and [bold link=https://www.linkedin.com/in/bertan-gunyel/]Linkedin"""
 
