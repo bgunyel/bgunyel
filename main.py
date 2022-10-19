@@ -28,6 +28,7 @@ projects_nlp_tree.add("⭐ [link=https://github.com/bgunyel/topic-modeling]Topic
 projects_nlp_tree.add("⭐ [link=https://github.com/bgunyel/kaggle_commonlit-readibility]Kaggle CommonLit Readability Prize")
 
 projects_time_series_tree.add("⭐ [link=https://github.com/bgunyel/electricity-demand-forecasting]Electricity Demand Forecasting")
+projects_time_series_tree.add("⭐ [link=https://github.com/bgunyel/strava-runners]Strava Runners")
 
 tech_stack_nlp_tree = tech_stack_tree.add(':memo: NLP')
 tech_stack_ml_tree = tech_stack_tree.add(':rocket: Machine Learning')
