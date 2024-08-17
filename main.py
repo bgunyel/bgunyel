@@ -87,7 +87,7 @@ md = Markdown(MARKDOWN)
 
 
 # console.print(md)
-console.print(Columns([panel1, panel2, md]))
+console.print(Columns([panel1, panel2]))
 
 
 
@@ -96,3 +96,4 @@ CONSOLE_HTML_FORMAT = """\
 """
 
 console.save_html("README.md", inline_styles=True, code_format=CONSOLE_HTML_FORMAT)
+# console.save_text(path='README.md')
