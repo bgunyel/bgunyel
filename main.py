@@ -25,13 +25,15 @@ tree = Tree("[link=https://www.linkedin.com/in/bertan-gunyel/]Bertan Günyel", g
 projects_tree = tree.add(":open_file_folder: Projects", guide_style="bold")
 tech_stack_tree = tree.add(":computer: Tech Stack", guide_style="bold")
 
-projects_cv_tree = projects_tree.add(':man_detective_light_skin_tone: Computer Vision')
+projects_ai_tree = projects_tree.add(':robot: AI')
 projects_nlp_tree = projects_tree.add(':memo: NLP')
 projects_time_series_tree = projects_tree.add(':chart_with_upwards_trend: Time-series')
+projects_cv_tree = projects_tree.add(':man_detective_light_skin_tone: Computer Vision')
 
-projects_cv_tree.add("⭐ [link=https://github.com/bgunyel/cv-fun]CV Fun")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/ragnar]RAGNAR")
 projects_nlp_tree.add("⭐ [link=https://github.com/bgunyel/nlp-fun]NLP Fun")
 projects_time_series_tree.add("⭐ [link=https://github.com/bgunyel/electricity-load-forecasting]Electricity Load Forecasting")
+projects_cv_tree.add("⭐ [link=https://github.com/bgunyel/cv-fun]CV Fun")
 
 
 tech_stack_ml_tree = tech_stack_tree.add(':rocket: Machine Learning')
