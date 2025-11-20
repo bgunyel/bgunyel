@@ -31,6 +31,12 @@ projects_time_series_tree = projects_tree.add(':chart_with_upwards_trend: Time-s
 projects_cv_tree = projects_tree.add(':man_detective_light_skin_tone: Computer Vision')
 
 projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/ragnar]RAGNAR")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/business-researcher]Business Researcher")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/summary-writer]Summary Writer")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/deep-sage]Deep Sage")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/auto-company]Auto Company")
+projects_ai_tree.add("⭐ [link=https://github.com/bgunyel/ai-common]AI-Common")
+
 projects_nlp_tree.add("⭐ [link=https://github.com/bgunyel/nlp-fun]NLP Fun")
 projects_time_series_tree.add("⭐ [link=https://github.com/bgunyel/electricity-load-forecasting]Electricity Load Forecasting")
 projects_cv_tree.add("⭐ [link=https://github.com/bgunyel/cv-fun]CV Fun")

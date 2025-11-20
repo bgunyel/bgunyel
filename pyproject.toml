@@ -1,14 +1,12 @@
-[tool.poetry]
+[project]
 name = "bgunyel"
 version = "0.1.0"
 description = "Bertan Günyel Github"
-authors = ["Bertan Günyel <bertan.gunyel@gmail.com>"]
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = ">=3.11.3"
-rich = "^13.7.1"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+authors = [
+    { name = "Bertan Günyel", email = "bertan.gunyel@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "rich>=14.2.0",
+]
