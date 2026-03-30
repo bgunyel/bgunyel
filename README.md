@@ -198,7 +198,6 @@ Collection of computer vision projects exploring object detection, segmentation,
 
 - 🏢 **Auto Company**: Building a comprehensive company intelligence platform with SEC data integration
 - 🤖 **AI Agents**: Exploring advanced agentic patterns with LangGraph and multi-agent systems
-- ⚡ **Elite Craft** *(Supervising)*: Overseeing development of an AI agent framework for code generation with documentation-driven knowledge bases
 - 📊 **Vector Databases**: Implementing efficient RAG pipelines for enterprise applications
 - 🔬 **Evaluation Frameworks**: Developing robust evaluation pipelines for AI systems
 
