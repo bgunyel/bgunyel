@@ -98,18 +98,6 @@ Foundational library providing unified LLM interfaces and reusable graph compone
 <tr>
 <td colspan="2">
 
-#### [⚡ Elite Craft](https://github.com/topalak/elite-craft) *- Supervised Project*
-**AI Agent Framework for Code Generation**
-
-An intelligent agent that generates code by crawling documentation, building knowledge bases, and providing semantic search capabilities. Features async web crawling, document chunking with Docling, and vector-based retrieval.
-
-**Tech:** LangChain · Crawl4AI · Docling · Supabase · pgvector · Ollama
-
-**Role:** Project Supervisor - Overseeing architecture, code standards, and development practices
-
-</td>
-</tr>
-</table>
 
 ### 📝 Natural Language Processing
 
