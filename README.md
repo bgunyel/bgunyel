@@ -29,13 +29,15 @@ The compliance assistant isn't the point. The evidence layer under it is: a test
 | | |
 |---|---|
 | Test cases | 433 |
-| Passing every quality check | 299 |
+| Passing every quality check | 319 |
 | Quality gate | **FAILING** |
 | Published performance numbers | **none** |
 
-The gate fails because 134 supporting quotes don't match the article they claim to come from. I'm not publishing system numbers off a test set that doesn't pass its own checks, and I'm not relaxing the gate to make it green. They go up when they're real — including everything the system gets wrong.
+The gate fails because 114 supporting quotes don't match the article they claim to come from. I'm not publishing system numbers off a test set that doesn't pass its own checks, and I'm not relaxing the gate to make it green. They go up when they're real — including everything the system gets wrong.
 
-Six sessions in, the instrument has turned out to be broken before the system four times running: a parser that silently destroyed 76 of 99 articles, a test suite that stayed green over it, a grounding rule that flagged correct data as wrong, and a document converter that severed paragraphs from the negations governing them — so that a *perfect* retriever would have returned text meaning the opposite of the law.
+Seven sessions in, the instrument has turned out to be broken before the system in six of them: a parser that silently destroyed 76 of 99 articles, a test suite that stayed green over it, a grounding rule that flagged correct data as wrong, and a document converter that severed paragraphs from the negations governing them — so that a *perfect* retriever would have returned text meaning the opposite of the law.
+
+That last one turned out to be the same bug at three levels of the same pipeline. I fixed it once, two weeks ago, and never went looking for the other two.
 
 [Repository](https://github.com/bgunyel/clause-and-effect) · [Build sessions](https://youtube.com/@bertangunyel/streams) · [Why evaluation comes first](https://www.linkedin.com/posts/bertan-gunyel_most-rag-demos-die-the-same-death-they-look-share-7484875320953851904-SKav)
 
