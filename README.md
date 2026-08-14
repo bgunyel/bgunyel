@@ -22,18 +22,18 @@ So I build the evidence alongside the system: evaluation sets that get checked r
 
 **An evaluation-first RAG system over the GDPR — built in public, on stream, mistakes included.**
 
-The compliance assistant isn't the point. The evidence layer under it is: a test set that gets checked rather than assumed, and every failure published next to every result.
+The compliance assistant isn't the point. The evidence layer under it is: an answer key that gets checked rather than assumed, and every failure published next to every result.
 
-**Status, as of 2026-08-06:**
+**Status, as of 2026-08-10:**
 
 | | |
 |---|---|
-| Test cases | 433 |
+| Evaluation questions | 433 |
 | Passing every quality check | 319 |
 | Quality gate | **FAILING** |
 | Published performance numbers | **none** |
 
-The gate fails because 114 supporting quotes don't match the article they claim to come from. I'm not publishing system numbers off a test set that doesn't pass its own checks, and I'm not relaxing the gate to make it green. They go up when they're real — including everything the system gets wrong.
+The gate fails because 114 supporting quotes don't match the article they claim to come from. I'm not publishing system numbers off an answer key that doesn't pass its own checks, and I'm not relaxing the gate to make it green. They go up when they're real — including everything the system gets wrong.
 
 Seven sessions in, the instrument has turned out to be broken before the system in six of them: a parser that silently destroyed 76 of 99 articles, a test suite that stayed green over it, a grounding rule that flagged correct data as wrong, and a document converter that severed paragraphs from the negations governing them — so that a *perfect* retriever would have returned text meaning the opposite of the law.
 
